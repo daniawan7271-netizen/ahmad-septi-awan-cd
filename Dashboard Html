@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="logo">Dashboard</h2>
+        <ul>
+            <li><a href="#home">Halaman Utama</a></li>
+            <li><a href="#info">Informasi</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html" class="logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <h1>Selamat Datang di Dashboard</h1>
+        <p>Ini adalah halaman utama dari website Anda.</p>
+    </section>
+
+    <section id="info" class="section">
+        <h1>Informasi</h1>
+        <p>Berisi informasi penting yang ingin ditampilkan kepada pengunjung.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h1>Contact</h1>
+        <div class="socials">
+            <a href="https://wa.me/" target="_blank">Whatsapp</a>
+            <a href="https://www.tiktok.com" target="_blank">Tiktok</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </section>
+</body>
+</html>
